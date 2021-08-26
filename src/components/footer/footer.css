@@ -1,10 +1,10 @@
 footer {
   background-color: black;
   color: white;
-  height: 120px;
+  height: 112px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 
   position: fixed;
   bottom: 0px;
@@ -18,13 +18,14 @@ footer {
 .copy {
   font-size: 1.5em;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: italic;
 }
 .social {
-  margin: 5px;
+  margin: 0px 4px;
 }
 
-@media (max-width: 550px) {
+/* @media (max-width: 550px) {
   footer {
     justify-content: center;
   }
-}
+} */
