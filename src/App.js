@@ -1,9 +1,9 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Header from "./components/header/header";
+import Footer from "./components/footer/footer";
 import Home from "./pages/home";
 import Hiking from "./pages/hiking";
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
@@ -18,6 +18,7 @@ function App() {
             <Home />
           </Route>
         </Switch>
+        <Footer />
       </Router>
     </div>
   );
