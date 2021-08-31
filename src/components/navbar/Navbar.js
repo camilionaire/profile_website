@@ -36,44 +36,44 @@ function Navbar() {
           </div>
 
           {/* moved class to div, added class to ul to fix weird buggy thing */}
-          <div className={click ? "nav-menu active" : "nav-menu"}>
-            <ul className="list-holder">
-              <li className="nav-item">
-                <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-                  Home
-                </Link>
-              </li>
+          <ul className={click ? "nav-menu active" : "nav-menu"}>
+            {/* <ul className="list-holder"> */}
+            <li className="nav-item">
+              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+                Home
+              </Link>
+            </li>
 
-              <li className="nav-item">
-                <Link
-                  to="/webdev"
-                  className="nav-links"
-                  onClick={closeMobileMenu}
-                >
-                  Web Dev
-                </Link>
-              </li>
+            <li className="nav-item">
+              <Link
+                to="/webdev"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
+                Web Dev
+              </Link>
+            </li>
 
-              <li className="nav-item">
-                <Link
-                  to="/programming"
-                  className="nav-links"
-                  onClick={closeMobileMenu}
-                >
-                  Programming
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link
-                  to="/sign-up"
-                  className="nav-links-mobile"
-                  onClick={closeMobileMenu}
-                >
-                  Sign Up
-                </Link>
-              </li>
-            </ul>
-          </div>
+            <li className="nav-item">
+              <Link
+                to="/programming"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
+                Programming
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                to="/sign-up"
+                className="nav-links-mobile"
+                onClick={closeMobileMenu}
+              >
+                Sign Up
+              </Link>
+            </li>
+          </ul>
+          {/* </div> */}
           {button && <Button buttonStyle="btn--outline">SIGN UP</Button>}
         </div>
       </nav>
