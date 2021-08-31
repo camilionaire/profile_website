@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Header from "./components/header/header";
-import Footer from "./components/footer/footer";
-import Home from "./pages/home";
-import Hiking from "./pages/hiking";
+import Header from "./components/header/Header";
+import Footer from "./components/footer/Footer";
+import Home from "./pages/Home";
+import Hiking from "./pages/Hiking";
 import "./App.css";
 
 function App() {

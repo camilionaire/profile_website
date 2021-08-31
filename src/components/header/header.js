@@ -1,11 +1,11 @@
-import "./header.css"
+import "./Header.css";
 
 function Header() {
-	return (
-		<header>
-			<h1>Camilo Schaser-Hughes</h1>
-		</header>
-	)
+  return (
+    <header>
+      <h1>Camilo Schaser-Hughes</h1>
+    </header>
+  );
 }
 
-export default Header
+export default Header;
