@@ -1,12 +1,13 @@
-
+import React from "react";
+import "../App.css";
+import HeroSection from "../components/hero/HeroSection";
 
 function Home() {
-	return (
-		<main>
-			<h2>Hello World!</h2>
-			<h3>is this working?...</h3>
-		</main>
-	);
+  return (
+    <div>
+      <HeroSection />
+    </div>
+  );
 }
 
 export default Home;

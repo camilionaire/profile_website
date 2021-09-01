@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { Button } from "../Button";
+import { Button } from "../button/Button";
 import "./Navbar.css";
 
 function Navbar() {
@@ -29,7 +29,8 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            CESH <i className="fas fa-rocket"></i>
+            <i class="fas fa-user-astronaut"></i>CESH{" "}
+            <i className="fas fa-rocket"></i>
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
