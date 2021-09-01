@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 // import Header from "./components/header/Header";
 import Navbar from "./components/navbar/Navbar";
-// import Footer from "./components/footer/Footer";
+import Footer from "./components/footer/Footer";
 import Home from "./pages/Home";
 import Webdev from "./pages/Webdev";
 import Programming from "./pages/Programming";
@@ -19,7 +19,7 @@ function App() {
           <Route path="/programming" component={Programming} />
           <Route path="/sign-up" component={SignUp} />
         </Switch>
-        {/* <Footer /> */}
+        <Footer />
       </Router>
     </div>
   );
