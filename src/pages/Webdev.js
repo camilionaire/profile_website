@@ -1,9 +1,6 @@
-function Webdev() {
-  return (
-    <main>
-      <h2>Here is my hiking stuff</h2>
-    </main>
-  );
-}
+import React from "react";
+import "../App.css";
 
-export default Webdev;
+export default function Webdev() {
+  return <h1 className="webdev">Web Dev Projects</h1>;
+}

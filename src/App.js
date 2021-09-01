@@ -4,7 +4,9 @@ import Navbar from "./components/navbar/Navbar";
 // import Footer from "./components/footer/Footer";
 import Home from "./pages/Home";
 import Webdev from "./pages/Webdev";
+import Programming from "./pages/Programming";
 import "./App.css";
+import SignUp from "./pages/SignUp";
 
 function App() {
   return (
@@ -12,10 +14,10 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
-          <Route path="/" exact component={Home}></Route>
-          <Route path="/webdev">
-            <Webdev />
-          </Route>
+          <Route path="/" exact component={Home} />
+          <Route path="/webdev" component={Webdev} />
+          <Route path="/programming" component={Programming} />
+          <Route path="/sign-up" component={SignUp} />
         </Switch>
         {/* <Footer /> */}
       </Router>
