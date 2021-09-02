@@ -28,7 +28,11 @@ function Navbar() {
     <>
       <nav className="navbar">
         <div className="navbar-container">
-          <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+          <Link
+            to="/~camilo3/"
+            className="navbar-logo"
+            onClick={closeMobileMenu}
+          >
             <i class="fas fa-user-astronaut"></i>CESH{" "}
             <i className="fas fa-rocket"></i>
           </Link>
@@ -40,14 +44,18 @@ function Navbar() {
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             {/* <ul className="list-holder"> */}
             <li className="nav-item">
-              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+              <Link
+                to="/~camilo3/"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
                 Home
               </Link>
             </li>
 
             <li className="nav-item">
               <Link
-                to="/webdev"
+                to="/~camilo3/webdev"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
@@ -57,7 +65,7 @@ function Navbar() {
 
             <li className="nav-item">
               <Link
-                to="/programming"
+                to="/~camilo3/programming"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
@@ -66,7 +74,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <Link
-                to="/sign-up"
+                to="/~camilo/sign-up"
                 className="nav-links-mobile"
                 onClick={closeMobileMenu}
               >
