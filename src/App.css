@@ -42,3 +42,17 @@
   color: #fff;
   font-size: 100px;
 }
+
+@media screen and (max-width: 960px) {
+  .progamming {
+    font-size: 70px;
+    margin-top: -100px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .programming {
+    font-size: 50px;
+    margin-top: -100px;
+  }
+}

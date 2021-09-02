@@ -33,8 +33,8 @@ function Navbar() {
             className="navbar-logo"
             onClick={closeMobileMenu}
           >
-            <i class="fas fa-user-astronaut"></i>CESH{" "}
             <i className="fas fa-rocket"></i>
+            CESH <i class="fas fa-user-astronaut"></i>
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />

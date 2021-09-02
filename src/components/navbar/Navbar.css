@@ -122,7 +122,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    transform: translate(25%, 50%);
+    transform: translate(10%, 50%);
   }
 
   .menu-icon {
@@ -159,5 +159,14 @@
     background: #fff;
     color: #242424;
     transition: 250ms;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .navbar-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(0%, 50%);
   }
 }
