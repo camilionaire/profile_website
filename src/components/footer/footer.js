@@ -64,8 +64,8 @@ function Footer() {
         <div className="social-media-wrap">
           <div className="footer-logo">
             <Link className="social-logo">
-              <i class="fas fa-user-astronaut"></i>CESH
-              <i className="fas fa-rocket"></i>
+              <i className="fas fa-rocket"></i>CESH
+              <i class="fas fa-user-astronaut"></i>
             </Link>
           </div>
           <small className="website-rights">CESH &copy; 2021</small>
