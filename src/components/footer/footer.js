@@ -52,14 +52,41 @@ function Footer() {
             <Link to="/">Influencer</Link>
           </div>
           <div class="footer-link-items">
-            <h2>Social Media</h2>
-            <Link to="/">Instagram</Link>
-            <Link to="/">Facebook</Link>
-            <Link to="/">Youtube</Link>
-            <Link to="/">Twitter</Link>
+            <h2>Social</h2>
+            <a
+              href="https://www.linkedin.com/in/camilo-schaser-hughes-706861bb/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              LinkedIn
+            </a>
+            <a
+              href="https://github.com/camilionaire"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub
+            </a>
+
+            <a
+              href="https://www.instagram.com/geekcore84/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Instagram
+            </a>
+
+            <a
+              href="https://www.facebook.com/camilo.schaserhughes"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Facebook
+            </a>
           </div>
         </div>
       </div>
+
       <section className="social-media">
         <div className="social-media-wrap">
           <div className="footer-logo">
@@ -68,40 +95,43 @@ function Footer() {
               <i class="fas fa-user-astronaut"></i>
             </Link>
           </div>
+
           <small className="website-rights">CESH &copy; 2021</small>
+
           <div className="social-icons">
-            <Link
+            <a
               className="social-icon-link linkedin"
-              to="/"
+              href="https://www.linkedin.com/in/camilo-schaser-hughes-706861bb/"
               target="_blank"
-              aria-label="LinkedIn"
+              rel="noreferrer"
             >
               <i className="fab fa-linkedin"></i>
-            </Link>
-            <Link
+            </a>
+            <a
               className="social-icon-link github"
-              to="/"
+              href="https://github.com/camilionaire"
               target="_blank"
-              aria-label="Github"
+              rel="noreferrer"
             >
               <i className="fab fa-github"></i>
-            </Link>
-            <Link
-              className="social-icon-link facebook"
-              to="/"
+            </a>
+            <a
+              className="social-icon-link linkedin"
+              href="https://www.facebook.com/camilo.schaserhughes"
               target="_blank"
-              aria-label="Facebook"
+              rel="noreferrer"
             >
               <i className="fab fa-facebook-f"></i>
-            </Link>
-            <Link
-              className="social-icon-link instagram"
-              to="/"
+            </a>
+
+            <a
+              className="social-icon-link linkedin"
+              href="https://www.instagram.com/geekcore84/"
               target="_blank"
-              aria-label="Instagram"
+              rel="noreferrer"
             >
               <i className="fab fa-instagram"></i>
-            </Link>
+            </a>
           </div>
         </div>
       </section>
