@@ -1,7 +1,7 @@
 video {
   object-fit: cover;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   position: fixed;
   z-index: -1;
 }
@@ -9,7 +9,7 @@ video {
 .hero-container {
   /* background: url("../../images/universe.jpg") center center/cover no-repeat; */
   height: 100vh;
-  width: 100%;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -17,7 +17,7 @@ video {
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
   object-fit: contain;
   /* added in to fix bug on mobile, I hope... weird fix */
-  margin-top: -20px;
+  margin-top: -80px;
 }
 
 .hero-container > h1 {
@@ -31,6 +31,7 @@ video {
   margin-top: 8px;
   color: #fff;
   font-size: 32px;
+  text-align: center;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
