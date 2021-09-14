@@ -52,7 +52,7 @@ function Footer() {
             <Link to="/">Influencer</Link>
           </div>
           <div class="footer-link-items">
-            <h2>Social</h2>
+            <h2>Social Media</h2>
             <a
               href="https://www.linkedin.com/in/camilo-schaser-hughes-706861bb/"
               target="_blank"

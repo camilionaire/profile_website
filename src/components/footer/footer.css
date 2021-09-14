@@ -53,24 +53,23 @@
 
 .footer-link-wrapper {
   display: flex;
+  justify-content: center;
 }
 
 .footer-link-items {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  /* align-items: center; */
   margin: 16px;
-  text-align: left;
+  /* padding: 0 auto; */
+  text-align: center;
   width: 160px;
   box-sizing: border-box;
 }
 
-.footer-link-items h2 {
-  margin-bottom: 16px;
-}
-
 .footer-link-items > h2 {
   color: #fff;
+  margin-bottom: 16px;
 }
 
 .footer-link-items a {
