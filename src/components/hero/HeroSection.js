@@ -7,7 +7,10 @@ import "./HeroSection.css";
 function HeroSection() {
   return (
     <div className="hero-container">
-      <video src="videos/video-2.mp4" autoPlay loop muted />
+      {/* <video id="openvideo" poster="videos/video-2.mp4" autoPlay loop muted>
+        <source src="videos/video-2.mp4" type="video/mp4"/>
+        </video> */}
+      {/* <image src="images/universe.jpg" alt="looking out to space" /> */}
       <h1>Camilo Eli Schaser-Hughes</h1>
       <p>Available for hire for your tech needs!</p>
       <div className="hero-btns">

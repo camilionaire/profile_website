@@ -29,7 +29,7 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbar-container">
           <Link
-            to="/~camilo3/"
+            to="/"
             className="navbar-logo"
             onClick={closeMobileMenu}
           >
@@ -45,7 +45,7 @@ function Navbar() {
             {/* <ul className="list-holder"> */}
             <li className="nav-item">
               <Link
-                to="/~camilo3/"
+                to="/"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
@@ -55,7 +55,7 @@ function Navbar() {
 
             <li className="nav-item">
               <Link
-                to="/~camilo3/webdev"
+                to="/webdev"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
@@ -65,7 +65,7 @@ function Navbar() {
 
             <li className="nav-item">
               <Link
-                to="/~camilo3/programming"
+                to="/programming"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
@@ -74,7 +74,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <Link
-                to="/~camilo/sign-up"
+                to="/sign-up"
                 className="nav-links-mobile"
                 onClick={closeMobileMenu}
               >
